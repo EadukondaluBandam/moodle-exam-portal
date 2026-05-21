@@ -19,7 +19,7 @@ global \$CFG;
   'dbport' => 5432,
 );
 
-\$CFG->wwwroot = 'https://moodle-exam.onrender.com';
+\$CFG->wwwroot = 'http://moodle-exam.onrender.com';
 \$CFG->dataroot = '/tmp/moodledata';
 \$CFG->admin = 'admin';
 
