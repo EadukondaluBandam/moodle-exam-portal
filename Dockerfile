@@ -10,6 +10,7 @@ RUN a2enmod rewrite
 COPY . /var/www/html/
 
 RUN mkdir -p /tmp/moodledata \
+    && chown -R www-data:www-data /tmp/moodledata \
     && chmod -R 777 /tmp/moodledata
 
 RUN chown -R www-data:www-data /var/www/html
