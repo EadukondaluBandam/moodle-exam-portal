@@ -27,4 +27,7 @@ require_once(__DIR__ . '/lib/setup.php');
 EOF
 fi
 
+mkdir -p /tmp/moodledata
+chmod -R 777 /tmp/moodledata
+
 apache2-foreground
